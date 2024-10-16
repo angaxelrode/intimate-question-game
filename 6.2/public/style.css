@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8ede3; /* Warm, inviting background color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex; /* Flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Center the body content */
+}
+
+/* Container for text */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 4rem;
+    color: rgb(196, 44, 118); /* Warm reddish-pink for intimacy */
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center; /* Center the heading */
+}
+
+p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #fff9f3; /* Subtle background for the text box */
+    text-align: center; /* Center the paragraph text */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add a hover effect for fun interaction */
+p:hover {
+    background-color: rgb(245, 138, 190); /* Slightly warmer background on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for links in the paragraph */
+p a {
+    color: #d55b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #e06666;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
